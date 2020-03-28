@@ -240,27 +240,28 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #b8a07e;
+  color: #c8a98c;
 }
 
 .hero-content p {
-  font-size: 13px;
-  letter-spacing: 3px;
+  font-size: 12px;
+  letter-spacing: 2px;
   margin-top: 0;
   margin-bottom: 30px;
-  text-transform: capitalize;
-  color: #b8a07e;
+  text-transform: UPPERCASE;
+  color: #c8a98c;
   font-weight: 500;
 }
 
 .hero-content .list-social li {
   float: left;
-  margin-right: 20px;
+  margin-right: 25px;
+  margin-left: 2px;
 }
 
 .hero-content .list-social li i {
-  color: #fff;
-  font-size: 15px;
+  color: #adb58c;
+  font-size: 16px;
 }
 
 /*-----------------------------------------------------------------------------------*/
