@@ -50,7 +50,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e; /* color of menu titles on hover */
+  color: #b8a07e;
   text-decoration: underline;
 }
 
@@ -204,7 +204,7 @@ nav ul li a {
 }
 
 .logo img {
-  width: 75px;
+  width: 100px;
   height: 50px;
 }
 
@@ -240,29 +240,27 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #c8a98c; /* main title */
+  color: #fff;
 }
 
 .hero-content p {
   font-size: 13px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
-  text-transform: uppercase;
-  color: #c69f74;
+  text-transform: capitalize;
+  color: #fff;
   font-weight: 500;
 }
 
 .hero-content .list-social li {
   float: left;
-  margin-right: 15px;
-  margin-left: 2px;
-
+  margin-right: 20px;
 }
 
 .hero-content .list-social li i {
-  color: #adb58c; /* social media icons */
-  font-size: 20px;
+  color: #fff;
+  font-size: 15px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -277,7 +275,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #c1aa94; /*frame behind photo*/
+  border: 20px solid #b8a07e;
 }
 
 #about .div-img-bg .about-img img {
@@ -385,7 +383,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-list .nav li {
-  margin: 0 50px 0 0;
+  margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
   color: #999999;
@@ -405,15 +403,14 @@ nav ul li a {
 
 #portfolio .portfolio-container {
   display: inline-block;
-  margin-bottom: 30px;
-  width: 100%; /* don't change this! */
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .portfolio-thumbnail {
   margin-bottom: 30px;
   overflow: hidden;
-  min-height: 300px;  /* changes the # of imags */
-  max-width: 275px;
+  min-height: 260px;
 }
 
 .portfolio-thumbnail img {
