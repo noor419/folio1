@@ -261,7 +261,7 @@ nav ul li a {
 
 .hero-content .list-social li i {
   color: #adb58c;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -415,7 +415,7 @@ nav ul li a {
 }
 
 .portfolio-thumbnail img {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 /*--------------------------------------------------------------
